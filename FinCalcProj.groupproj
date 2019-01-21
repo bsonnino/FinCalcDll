@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CE9E8F16-DB99-4D72-9C5E-721DC6B39B78}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FinCalcDll\FinCalcDll.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FinCalc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FinCalcTests\FinCalcTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FinCalcDll">
+        <MSBuild Projects="FinCalcDll\FinCalcDll.dproj"/>
+    </Target>
+    <Target Name="FinCalcDll:Clean">
+        <MSBuild Projects="FinCalcDll\FinCalcDll.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FinCalcDll:Make">
+        <MSBuild Projects="FinCalcDll\FinCalcDll.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FinCalc">
+        <MSBuild Projects="FinCalc.dproj"/>
+    </Target>
+    <Target Name="FinCalc:Clean">
+        <MSBuild Projects="FinCalc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FinCalc:Make">
+        <MSBuild Projects="FinCalc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FinCalcTests">
+        <MSBuild Projects="FinCalcTests\FinCalcTests.dproj"/>
+    </Target>
+    <Target Name="FinCalcTests:Clean">
+        <MSBuild Projects="FinCalcTests\FinCalcTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FinCalcTests:Make">
+        <MSBuild Projects="FinCalcTests\FinCalcTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FinCalcDll;FinCalc;FinCalcTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FinCalcDll:Clean;FinCalc:Clean;FinCalcTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FinCalcDll:Make;FinCalc:Make;FinCalcTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

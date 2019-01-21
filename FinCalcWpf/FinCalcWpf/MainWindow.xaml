@@ -1,0 +1,136 @@
+﻿<Window x:Class="FinCalcWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Financial Calulator WPF" Height="293.774" Width="419.623">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Present Value">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" 
+                             Margin="5" Text="Future Value"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                            Text="Interest Rate"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                            Text="Num.Periods"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                            Text="Present Value"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                            x:Name="PvFvBox" TextChanged="PvOnTextChanged"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PvIrBox" TextChanged="PvOnTextChanged"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PvNpBox" TextChanged="PvOnTextChanged"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PvPvBox" IsReadOnly="True"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Future Value">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" 
+                               Margin="5" Text="Present Value"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Interest Rate"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Num.Periods"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Future Value"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="FvPvBox" TextChanged="FvOnTextChanged"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="FvIrBox" TextChanged="FvOnTextChanged"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="FvNpBox" TextChanged="FvOnTextChanged"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="FvFvBox" IsReadOnly="True"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Payment">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" 
+                               Margin="5" Text="Present Value"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Interest Rate"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Num.Periods"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Payment"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PmtPvBox" TextChanged="PmtOnTextChanged"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PmtIrBox" TextChanged="PmtOnTextChanged"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PmtNpBox" TextChanged="PmtOnTextChanged"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="PmtPmtBox" IsReadOnly="True"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Return Rate">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" 
+                               Margin="5" Text="Present Value"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Payment"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Num.Periods"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5" 
+                               Text="Return Rate"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="RrPvBox" TextChanged="RrOnTextChanged"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="RrPmtBox" TextChanged="RrOnTextChanged"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="RrNpBox" TextChanged="RrOnTextChanged"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Margin="5" VerticalContentAlignment="Center"
+                             x:Name="RrRrBox" IsReadOnly="True"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

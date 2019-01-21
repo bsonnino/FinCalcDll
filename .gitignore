@@ -1,0 +1,17 @@
+Win32/
+__history/
+__recovery/
+*.~*
+.vs/
+_Re[sS]harper*/
+AppPackages/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/

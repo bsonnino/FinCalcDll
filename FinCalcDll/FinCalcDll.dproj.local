@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/10 10:25:17.000.091,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/08 09:25:02.000.847,D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\FinCalcDll.dproj</Transaction>
+    <Transaction>2019/01/08 09:25:24.000.629,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas</Transaction>
+    <Transaction>2019/01/08 09:58:39.000.758,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\PVCalculator.pas</Transaction>
+    <Transaction>2019/01/08 09:58:58.000.434,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\FinCalcDll.dproj=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\FinCalcDll.dproj</Transaction>
+    <Transaction>2019/01/08 11:35:50.000.863,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas</Transaction>
+    <Transaction>2019/01/08 11:38:30.000.294,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\FVCalculator.pas</Transaction>
+    <Transaction>2019/01/08 11:38:37.000.217,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas</Transaction>
+    <Transaction>2019/01/08 11:42:09.000.597,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\IRRCalculator.pas</Transaction>
+    <Transaction>2019/01/08 12:23:30.000.148,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas</Transaction>
+    <Transaction>2019/01/08 12:28:02.000.671,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\Unit2.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\PmtCalculator.pas</Transaction>
+  </Transactions>
+</BorlandProject>

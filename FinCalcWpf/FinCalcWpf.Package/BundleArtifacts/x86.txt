@@ -1,0 +1,2 @@
+MainPackage=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcWpf\FinCalcWpf.Package\bin\x86\Debug\FinCalcWpf.Package_1.0.0.0_x86_Debug.appx
+SymbolPackage=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcWpf\FinCalcWpf.Package\AppPackages\FinCalcWpf.Package_1.0.0.0_Debug_Test\FinCalcWpf.Package_1.0.0.0_x86_Debug.appxsym

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/10 10:25:17.000.091,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/09 10:45:09.000.752,=D:\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/01/09 10:58:38.000.647,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\FVCalculator.pas</Transaction>
+    <Transaction>2019/01/09 10:58:38.000.699,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\PmtCalculator.pas</Transaction>
+    <Transaction>2019/01/09 10:58:38.000.670,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\IRRCalculator.pas</Transaction>
+    <Transaction>2019/01/09 10:58:38.000.724,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcDll\PVCalculator.pas</Transaction>
+    <Transaction>2019/01/09 11:21:10.000.366,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\PVCalculatorTests.pas=D:\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/01/09 11:21:20.000.521,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\FinCalcTests.dproj=D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/01/09 12:12:56.000.398,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\Unit2.pas</Transaction>
+    <Transaction>2019/01/09 12:14:27.000.292,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\FVCalculatorTests.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\Unit2.pas</Transaction>
+    <Transaction>2019/01/09 16:19:56.000.126,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\Unit2.pas</Transaction>
+    <Transaction>2019/01/09 16:23:13.000.072,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\PmtCalculatorTests.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\Unit2.pas</Transaction>
+    <Transaction>2019/01/10 08:25:14.000.099,=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\Unit2.pas</Transaction>
+    <Transaction>2019/01/10 08:29:42.000.649,D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\IrrCalculatorTests.pas=D:\Documentos\Artigos\Artigos\Delphi\FinCalcDll\FinCalcTests\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
